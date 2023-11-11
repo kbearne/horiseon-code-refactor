@@ -5,12 +5,12 @@
     margin: 0;
 }
 
-/* Body styling */
+/* Body styling (setting the page colour) */
 body {
     background-color: #d9dcd6;
 }
 
-/* Top level elements styling */
+/* Site wide element specific styling */
 a {
     color: #ffffff;
     text-decoration: none;
@@ -20,7 +20,7 @@ p {
     font-size: 16px;
 }
 
-/* Header and nav styling */
+/* Header and nav styling (including site title and navigation list) */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -54,7 +54,7 @@ header nav ul li {
     margin-left: 25px;
 }
 
-/* Hero styling */
+/* Hero styling (a section with the class of hero) */
 .hero {
     height: 800px;
     width: 100%;
@@ -64,7 +64,7 @@ header nav ul li {
     background-position: center;
 }
 
-/* Main styling */
+/* Main styling (including three sections) */
 main {
     width: 75%;
     display: inline-block;
@@ -89,7 +89,7 @@ main section h2 {
     font-size: 36px;
 }
 
-/* Aside styling */
+/* Aside styling (right hand panel, including three sections) */
 aside {
     margin-right: 20px;
     padding: 20px;
