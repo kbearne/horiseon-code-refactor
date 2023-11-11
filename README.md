@@ -6,11 +6,15 @@ This project fulfils the criteria of a marketing agency who want their codebase 
 
 The codebase has been refactored throughout, including the replacement of non-semantic HTML elements with their semantic equivalents, the consolidation of CSS (where applicable) and the addition of alt attributes to all images / icons.
 
+![Screenshot of the website](websiteScreenshot.png)
+
 ## Installation
 
 N/A
 
 ## Usage
+
+Access the deployed application at the following URL: https://kbearne.github.io/horiseon-code-refactor/
 
 This site contains a header with a title and three navigation items, three main sections, three aside sections and a footer.
 
