@@ -1,13 +1,26 @@
+/* Universally styles all elements */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/* Body styling */
 body {
     background-color: #d9dcd6;
 }
 
+/* Top level elements styling */
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+p {
+    font-size: 16px;
+}
+
+/* Header and nav styling */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -20,7 +33,7 @@ header h1 {
     font-size: 48px;
 }
 
-header h1 .seo {
+header h1 {
     color: #d9dcd6;
 }
 
@@ -41,15 +54,7 @@ header nav ul li {
     margin-left: 25px;
 }
 
-a {
-    color: #ffffff;
-    text-decoration: none;
-}
-
-p {
-    font-size: 16px;
-}
-
+/* Hero styling */
 .hero {
     height: 800px;
     width: 100%;
@@ -59,22 +64,32 @@ p {
     background-position: center;
 }
 
-.float-left {
-    float: left;
-    margin-right: 25px;
-}
-
-.float-right {
-    float: right;
-    margin-left: 25px;
-}
-
+/* Main styling */
 main {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+main section {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+main section img {
+    max-height: 200px;
+}
+
+main section h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/* Aside styling */
 aside {
     margin-right: 20px;
     padding: 20px;
@@ -102,24 +117,7 @@ aside section img {
     max-width: 150px;
 }
 
-main section {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-main section img {
-    max-height: 200px;
-}
-
-main section h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
+/* Footer styling */
 footer {
     padding: 30px;
     clear: both;
@@ -129,4 +127,15 @@ footer {
 
 footer h2 {
     font-size: 20px;
+}
+
+/* Positioning styling (IDs) */
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+.float-right {
+    float: right;
+    margin-left: 25px;
 }
